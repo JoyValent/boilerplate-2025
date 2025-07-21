@@ -1,0 +1,8 @@
+@baseUrl = https://devlocal.test/api
+
+@cType = application/json
+
+### Get all clients
+
+GET {{{{baseUrl}}}}/clients
+Content-Type: {{cType}}
